@@ -40,4 +40,5 @@ body::-webkit-scrollbar {
 
 a{
   color: inherit;
+  display: contents;
 }
