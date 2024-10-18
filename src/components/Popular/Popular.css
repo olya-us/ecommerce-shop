@@ -1,0 +1,11 @@
+.popular{
+    padding: 40px 0;
+    .popular-item{
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+        img{
+            margin-bottom: 12px;
+        }
+    }
+}

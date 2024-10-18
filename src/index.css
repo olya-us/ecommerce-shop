@@ -20,7 +20,7 @@ body{
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: #111111;
-  background: #E5E5E5;
+  background: #F5F5F5;
   overflow: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -36,4 +36,8 @@ body::-webkit-scrollbar {
   margin: 0 auto;
   width: 100%;
   padding: 0 20px;
+}
+
+a{
+  color: inherit;
 }

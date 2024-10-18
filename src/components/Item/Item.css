@@ -1,0 +1,16 @@
+.item{
+    transition: 0.6s;
+    width: calc((100% - 40px) / 3);
+    img{
+        width: 100%;
+    }
+    p{
+        margin: 6px 0
+    }
+    .item-prices{
+        font-weight: 600;
+    }
+    &:hover{
+        transform: scale(1.05);
+    }
+}
