@@ -1,0 +1,10 @@
+.shop-category{
+    padding: 50px 0 ;
+    .shopcategory-products{
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        row-gap: 40px;
+    }
+}

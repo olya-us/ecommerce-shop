@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="container">
                 <div className="navbar">
                     <div className="nav-logo">
-                        <img src={logo} alt="logo icon" />
+                        <Link to='/'><img src={logo} alt="logo icon" /></Link>
                     </div>
                     <ul className="nav-menu">
                         <li className={activeMenu === 'shop' ? 'active' : ''} onClick={() => {setActiveMenu('shop')}}><Link to="/">Shop</Link></li>
