@@ -39,11 +39,11 @@
         .cartitems-total{
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 30px;
             .cartitems-total-items{
                 display: flex;
                 flex-direction: column;
-                gap: 10px;
+                gap: 15px;
                 .cartitems-total-item{
                     display: flex;
                     justify-content: space-between;
@@ -65,7 +65,7 @@
                 border-radius: 100px;
                 outline: none;
                 font-size: 18px;
-                margin-top: 20px;
+                margin-top: 10px;
             }
         }
     }
