@@ -7,7 +7,7 @@ import { ShopContext } from '../../context/ShopContext'
 
 const Navbar = () => {
     const [activeMenu, setActiveMenu] = useState('shop')
-    const {getTotalCartItems} = useContext(ShopContext)
+    const { getTotalCartItems } = useContext(ShopContext)
 
     return (
         <div className="navbar-wrapper">

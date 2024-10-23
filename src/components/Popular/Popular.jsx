@@ -8,7 +8,7 @@ const Popular = () => {
         <h2>Popular in women</h2>
         <div className="popular-item">
             {data_product.map((item, i) => (
-                <Item key={i} id={item.id} name={item.name} image={item.image} price={item.price}/>
+              <Item key={i} id={item.id} name={item.name} image={item.image} price={item.price}/>
             ))}
         </div>
     </div>
