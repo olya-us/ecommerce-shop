@@ -25,7 +25,7 @@ const Navbar = () => {
                     <div className="nav-login-cart">
                         <Link to='/cart'>  
                             <img src={cart_icon} alt="cart icon" />
-                            <div className="nav-cart-count">{getTotalCartItems()}</div>
+                            {getTotalCartItems() > 0 && <div className="nav-cart-count">{getTotalCartItems()}</div>}
                         </Link>
                     </div>
                 </div>
